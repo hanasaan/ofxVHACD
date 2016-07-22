@@ -63,5 +63,6 @@ bool ofxVHACD::createConvexHullMesh(const ofMesh& mesh_in, vector<ofMesh>& mesh_
     else {
         ofLogError() << "Decomposition cancelled by user!";
     }
+    return res;
 
 }
